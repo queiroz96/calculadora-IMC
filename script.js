@@ -26,6 +26,11 @@ function calcular(event){
         resultado.innerHTML ='</br> Seu resultado foi: ' + imc.toFixed(2) + '<br>Cuidado!! Você está com obesidade'
     }
 
+    
+   document.getElementById('peso').value =''
+   document.getElementById('altura').value =''
+ 
+
 }
     
 
