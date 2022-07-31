@@ -1,12 +1,12 @@
-var peso;
+var peso;  /* declaração de variáveis */
 var altura;
 var imc;
 var resultado;
 
 
 
-function calcular(event){
-    event.preventDefault();
+function calcular(event){ /* criação de função */
+    event.preventDefault(); /* não apagar os dados no submmit */
 
     peso = document.getElementById('peso').value;
     altura = document.getElementById('altura').value;
